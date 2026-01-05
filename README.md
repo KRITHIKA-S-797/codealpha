@@ -1,32 +1,28 @@
 # CGPA Calculator (C++)
 
-A simple **CGPA** (Cumulative Grade Point Average) calculator built using C++.  
-The program takes subject marks/grades and credits as input, then calculates and displays the total credits and CGPA for the student. [web:17][web:21][web:33]
-
----
+A simple **CGPA** calculator built using C++ for students to compute their Cumulative Grade Point Average based on course grades and credits.[web:1][web:8]
 
 ## Features
 
-- Accepts multiple subjects in a single run. [web:21][web:33]  
-- Takes marks/grade and credit for each subject as input. [web:17][web:21]  
-- Calculates total grade points, total credits, and final CGPA. [web:17][web:20][web:21]  
-- Simple console-based interface suitable for beginners. [web:21][web:24]  
+- Input number of subjects/courses for a semester.[web:8]
+- Enter marks or grades and credit hours for each course.[web:1][web:8]
+- Automatically convert marks/grades to grade points (according to a defined scale).
+- Calculate total credits, total grade points, GPA for the semester, and overall CGPA.[web:1][web:5][web:8]
+- Simple console-based interface suitable for beginners in C++.[web:8]
 
----
+## Tech Stack
 
-## Technologies Used
+- Language: **C++**
+- Type: Console application
+- Build tools: Any C++17-compatible compiler (G++/Clang/MSVC).[web:9]
 
-- C++ (standard console application). [web:17][web:19]  
-- Any C++17 compatible compiler (e.g., `g++`, `clang++`, MSVC). [web:23][web:29][web:35]  
+## Project Structure
 
----
-
-## Getting Started
-
-Follow the steps below to clone, compile, and run the project on your system. [web:18][web:21]
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/cgpa-calculator-cpp.git
-cd cgpa-calculator-cpp
+```text
+cgpa-calculator/
+├── src/
+│   ├── main.cpp
+│   ├── cgpa_calculator.cpp
+│   └── cgpa_calculator.hpp
+├── README.md
+└── Makefile        (optional)
